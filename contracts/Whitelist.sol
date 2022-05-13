@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-/*Kindly note, the user of Merkle Tree is recommended as
+/*Kindly note, the use of Merkle Tree is recommended as
  *it reduces the consumption of gas
  */
 
