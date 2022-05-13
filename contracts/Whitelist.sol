@@ -2,6 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
+/*Kindly note, the user of Merkle Tree is recommended as
+ *it reduces the consumption of gas
+ */
 
 contract Whitelist is Ownable{
     // It keeps track of the address whitelist status
